@@ -43,7 +43,7 @@ def DumpToHexData_PIU_16SC_1G(FileName:str):
     MakeFile.close()
 
     # 간단한 디버그 용 코드.
-    MakeFile = open('1G HexaDumpData', 'r')
+    MakeFile = open(HexDumpDataFileName_PIU_16SC_1G, 'r')
 
     while True:
         Debug = MakeFile.readline()
