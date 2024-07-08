@@ -8,7 +8,13 @@ def extract_hex_values_from_file(input_file_path, output_file_path):
     lines = log_data.split('\n')
     hex_data_lines = []
     block_number = 1
+    tempcount=0
     for line in lines:
+
+        if line.startswith("#"):
+            tempcount += 1
+            hex_data_lines.append("\n--------N0." + str(tempcount) + "----------------------------------------\n")
+
         # 날짜로 시작하는 줄은 무시
         if re.match(r'^[A-Za-z]{3}', line):
             continue

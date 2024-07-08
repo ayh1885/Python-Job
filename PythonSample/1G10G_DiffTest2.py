@@ -3,10 +3,19 @@ from datetime import datetime
 
 HexDumpDataFileName_PIU_16SC_1G = '1G HexaDumpData'
 
+def DebugLine(string : str):
+
+    for Char in string:
+        if (Char < '0' or '9' < Char) and (Char < 'A' or 'F' < Char) and Char != " " and Char != "\n" and (
+                Char < 'a' or 'f' < Char):
+            return False
+
+    return True
+
 def DumpToHexData_PIU_16SC_1G(FileName:str):
 
-    DumpFile = open(FileName, 'r')
-    MakeFile = open('1G HexaDumpData', 'w')
+    DumpFile = open(FileName, 'r', encoding="UTF-8")
+    MakeFile = open(HexDumpDataFileName_PIU_16SC_1G, 'w', encoding="UTF-8")
 
     Num = 1
 
@@ -24,9 +33,16 @@ def DumpToHexData_PIU_16SC_1G(FileName:str):
             try:
                 PutStr = line.split(" ")[1] + " " + line.split(" ")[3] + " " + line.split(" ")[5].replace("[", "").replace(
                 "]", "")
+                if not DebugLine(PutStr):
+                    print(PutStr)
+                    input()
+                    raise Exception
+
+
             except Exception as e:
                 print("Abnormal Data in Dump!!!")
                 print(line)
+                MakeFile.write("// Error : " + line)
                 continue
 
         elif line.startswith("SubType: "):
@@ -37,7 +53,7 @@ def DumpToHexData_PIU_16SC_1G(FileName:str):
                 PutStr = line.split(" ")[1].replace(",", "") + " " + line.split(" ")[3]
             except Exception as e:
                 print("Abnormal Data in Dump!!!")
-                print(line)
+                MakeFile.write("// Error : " + line)
                 continue
 
             else:
@@ -56,14 +72,14 @@ def DumpToHexData_PIU_16SC_1G(FileName:str):
                 PutStr += "\n\n"
 
         # print(PutStr)
-        PutStr = PutStr.upper()
         MakeFile.write(PutStr)
 
     DumpFile.close()
     MakeFile.close()
 
     # 간단한 디버그 용 코드.
-    MakeFile = open('1G HexaDumpData', 'r')
+    MakeFile = open('1G HexaDumpData', 'r', encoding="UTF-8")
+    count = 0
 
     while True:
         Debug = MakeFile.readline()
@@ -71,13 +87,15 @@ def DumpToHexData_PIU_16SC_1G(FileName:str):
             break
 
         if Debug.startswith("--- N0."):
+            count += 1
             continue
 
         for Char in Debug:
             if (Char < '0' or '9' < Char) and (Char < 'A' or 'F' < Char) and Char != " " and Char != "\n" and (
                     Char < 'a' or 'f' < Char):
                 print("Error!!!! : " + Char + "\n\n")
-                raise "DebugError"
+                print("Check MSG Please!!!  Conut : " + str(count))
+                #raise Exception
 
     MakeFile.close()
 
@@ -568,11 +586,11 @@ BranchLeafStringData("9", "Actions", "Branch9")
 
 
 OpName = {
-    "00": "[00]Info",
-    "01": "[01]Get Request",
-    "02": "[02]Get Response",
-    "03": "[03]Set Request",
-    "04": "[04]Set Response",
+    "00": "[0x00]Info",
+    "01": "[0x01]Get Request",
+    "02": "[0x02]Get Response",
+    "03": "[0x03]Set Request",
+    "04": "[0x04]Set Response",
 }
 
 
@@ -761,12 +779,6 @@ WidthErrorFile.close()
 
 
 
-
-
-
-
-
-
 '''
                 if not PonChipName in ErrorAttributeWithWidth:
                     ErrorAttributeWithWidth[PonChipName] = {}
@@ -844,3 +856,304 @@ TempFile.write("////////////////////////////////////////////////////////////////
 
 TempFile.close()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############################################################################################################
+#       HexaOneLine로 변환된 DumpList의 요소를 집어넣으면 아래의 Dict 형태로 변환한다. - 아래 함수에서 사용
+###############################################################################################################
+def ParseDatatoDict(data):
+    # 각 구조로 분리하여 딕셔너리로 저장
+    parsed_data = {
+
+        "Dst" : data [:6 * 2],                  # 6 Byte
+        "Src" : data [6 * 2 : 12 * 2],          # 6 Byte
+        "Len_Type" : data [12 * 2 : 14 * 2],    # 2 Byte
+        "Subtype": data[14 * 2: 15 * 2],        # 1 Byte
+        "Flags": data[15 * 2: 17 * 2],          # 2 Byte
+        "Code": data[17 * 2: 18 * 2],           # 1 Byte
+        "DataAndPad": data[18 * 2: ],           # Rest
+
+        "FullData": data,                       # Hexa 형식 전체도 저장한다.
+    }
+
+    return parsed_data
+
+
+
+
+###############################################################################################################
+#       HexaOneLine로 변환된 DumpList를 OAM Header 부분대로 나누어서 Dict에 저장한 것을 List로 반환한다.
+###############################################################################################################
+def MakeListParsedDict(DumpHexaList : list):
+    RetList = []
+
+    for Data in DumpHexaList:
+        DictData = ParseDatatoDict(Data)
+        RetList.append(DictData)
+
+    return RetList
+
+
+
+
+def ExtractFromOAM_andPrintFile(OamDataDictList: list):
+    OutFile = open("Temp Test Module.txt", "w", encoding="UTF-8");
+    Count = 0
+
+
+
+    for OamData in OamDataDictList:
+
+        PutFullData = OamData["FullData"]
+        if(PutFullData.startswith("//")):
+            continue
+
+
+        Count += 1
+        InputString = "\n\n\n----- N0." + str(Count) + " -------------------------------------------------------------------------\n\n"
+
+
+
+
+        InputString += "Full Data : " + PutFullData + "\n\n"
+
+        InputString += "[Total : " + str(int(len(PutFullData)/2)) + "bytes ]\n\n"
+        if  len(PutFullData) % 2 != 0:
+            print("Length Error!!!")
+            print(PutFullData)
+            print(len(PutFullData))
+            raise Exception
+
+        for index in range(0, len(PutFullData)):
+            InputString += PutFullData[index]
+
+            if index % 2 != 0:
+                InputString += " "
+            if index % 16 == 15:
+                InputString += "\n"
+
+        InputString += "\n\n\n"
+
+
+
+
+        '''
+        "Dst" : data [:6 * 2],                  # 6 Byte
+        "Src" : data [6 * 2 : 12 * 2],          # 6 Byte
+        "Len_Type" : data [12 * 2 : 14 * 2],    # 2 Byte
+        "Subtype": data[14 * 2: 15 * 2],        # 1 Byte
+        "Flags": data[15 * 2: 17 * 2],          # 2 Byte
+        "Code": data[17 * 2: 18 * 2],           # 1 Byte
+
+        "DataAndPad": data[18 * 2: ],           # Rest
+        '''
+
+        InputString += "Dst: 0x" + OamData["Dst"] + "\n"
+        InputString += "Src: 0x" + OamData["Src"] + "\n"
+        InputString += "Len_Type: 0x" + OamData["Len_Type"] + "\n"
+        InputString += "Subtype: 0x" + OamData["Subtype"] + "\n"
+        InputString += "Flags: 0x" + OamData["Flags"] + "\n"
+        InputString += "Code: 0x" + OamData["Code"] + "\n\n"
+
+
+
+        OamDataAndPad = OamData["DataAndPad"]
+
+        # 이것을 기준으로 Var에 대한 값을 가져갈 것이다.
+        StrLen = len(OamDataAndPad)
+
+        # 3Byte = OUI, 1Byte = Op
+        if StrLen < 4 * 2:
+            InputString += "!!!!!!!!!!!Length Error!!!!!!!\n\n"
+            OutFile.write(InputString)
+            continue
+
+        # OUI 3 Byte
+        OUI = OamDataAndPad[0: 3 * 2]
+        # print("OUI = " + OUI)
+
+        # 1 Byte
+        # 해당 op 값을 기반으로 아래의 값이 매칭이 될 듯 하다. + OUI 에 대해서도 변경
+        Op = OamDataAndPad[3 * 2: 4 * 2]
+        # print("Op =  " + Op)
+
+        InputString += "OUI : " + OUI + "\n"
+
+        if Op in OpName:
+            InputString += "Op : " + OpName[Op] + "\n\n"
+        else:
+            InputString += "Op : 0x" + Op + "\n\n"
+
+        if int(Op, 16) == 0 or int(Op, 16) == 1:
+            InputString += "Skip [00]Info and [01]Get Request \n\n"
+            OutFile.write(InputString)
+            continue
+
+        # 현재 Op 코드가 0 (info), 1 () 인것은 제외하였다. - 이유 : Branch-Leaf-Width-Value에 대한 정보가 나오지 않는다.
+        if (int(Op, 16) != 2) and (int(Op, 16) != 3) and (int(Op, 16) != 4):
+            InputString += "!!! Please Check OAM Data and Python Code !!! \n\n"
+            continue
+
+        ########################################################
+        # 여기부터 Var영역이다. - 반복문으로 전환해야 한다.            #
+        ########################################################
+        '''
+        # Branch 1바이트이다. - HEX 값인것을 인지 해야 한다.
+        Branch = OamDataAndPad[ 4*2 : 5*2 ]
+
+        # 이것도 고려를 해야 한다.
+        if Branch == "07":
+            print("0x07 is Attribute!!")
+
+        # 위의 Branch가 07이면, 아래 2 Byte가 leaf이다.   // leaf가 아닌 경우도 있지만, 2바이트를 차지하는 것은 같다.
+        leaf = OamDataAndPad[ 5*2 : 7*2 ]
+        print("leaf : " + leaf)
+
+        # 위가 1바이트 leaf라면은 여기는 Width 값이다.    // leaf가 아닌 경우에도 지금 length 값으로 width와 비슷한 역할을 한다.
+        width = OamDataAndPad[ 7*2 : 8*2 ]
+        print("width : " + width)
+
+        # 현재는 일단 ... 이대로 놔두자.
+        ParsedData = OamDataAndPad[ 8*2 : (8 + width)*2 ]
+        '''
+
+        WorkByte = 4
+        VariableCount = 1
+
+        format_string = lambda input_string: ' '.join(
+            [input_string[i:i + 2] for i in range(0, len(input_string), 2)])
+
+        while (True):
+            if StrLen <= WorkByte * 2:
+                OutFile.write(InputString)
+                break
+
+
+
+
+            InputString += "VarNum : " + str(VariableCount) + "\n"
+            VariableCount += 1
+
+
+            # Branch 1바이트이다. - HEX 값인것을 인지 해야 한다.
+            Branch = OamDataAndPad[WorkByte * 2: (WorkByte + 1) * 2]
+            WorkByte += 1
+
+
+
+            # 이 외에 추가적인 사항이 있다면은 기재를 해야한다.
+            if Branch == "00":
+                InputString += "\tBranch : 0x00 [0x00 is End!]\n"
+                InputString += "\tvalue : " + format_string(OamDataAndPad[WorkByte * 2:]) + "\n\n"
+                OutFile.write(InputString)
+                break
+
+            # if Branch == "06":
+
+            # 위의 Branch가 07이면, 아래 2 Byte가 leaf이다.   // leaf가 아닌 경우도 있지만, 2바이트를 차지하는 것은 같다.
+            leaf = OamDataAndPad[WorkByte * 2: (WorkByte + 2) * 2]
+            WorkByte += 2
+
+
+            InputString += "\t[Branch-Leaf] : " + str(int(Branch, 16)) + "-" + str(int(leaf, 16)) + "\t"
+
+
+            #####################################################################################################
+
+            if str(int(Branch, 16)) in BranchLeafStringDict:
+                FindDict = BranchLeafStringDict[str(int(Branch, 16))]
+
+                if Branch == "07":
+
+                    if str(int(leaf, 16)) in FindDict:
+
+                        LeafName = FindDict[str(int(leaf, 16))][0]
+                        ReadOrWrite = FindDict[str(int(leaf, 16))][1]
+                        Description = FindDict[str(int(leaf, 16))][2]
+                    else:
+                        LeafName = "-"
+                        ReadOrWrite = "-"
+                        Description = "-"
+
+                    InputString += (" [Branch :" + BranchNameDict[str(int(Branch, 16))] + ", ")
+                    InputString += (
+                                "LeafName :" + LeafName + ", R/W :" + ReadOrWrite + "] - Description :" + Description)
+
+                elif str(int(Branch, 16)) == "9":
+                    LeafName = FindDict[str(int(leaf, 16))][0]
+                    Description = FindDict[str(int(leaf, 16))][1]
+                    InputString += (" [Branch :" + BranchNameDict[str(int(Branch, 16))] + ", ")
+                    InputString += ("LeafName :" + LeafName + "] - Description :" + Description)
+
+            else:
+                if str(int(Branch, 16)) == "167":
+                    InputString += " [데이터 부재 Case 1 - Branch == 167]"
+                else:
+                    InputString += " [데이터 부재 Case 2 - Data X]"
+
+            InputString += "\n"
+
+
+            ######################################################################################################
+
+
+
+
+
+
+            InputString += "\tBranch : 0x" + Branch + "\n"
+            InputString += "\tLeaf : 0x" + leaf + "\n"  # 여기에 인포가 들어가면 좋을 것이다.
+
+            # 위가 1바이트 leaf라면은 여기는 Width 값이다.    // leaf가 아닌 경우에도 지금 length 값으로 width와 비슷한 역할을 한다.
+            width = OamDataAndPad[WorkByte * 2: (WorkByte + 1) * 2]
+            WorkByte += 1
+
+            InputString += "\tWidth : 0x" + width + "  [" + str(int(width, 16)) + "]\n"
+
+            if int(width, 16) >= 128:
+                width = "00"
+
+
+            Value = OamDataAndPad[WorkByte * 2: (WorkByte + int(width, 16)) * 2]
+
+
+            WorkByte += int(width, 16)
+
+
+            if int(width, 16) == 0:
+                InputString += "\tValue : -NONE-\n\n"
+            else:
+
+
+                InputString += "\tValue : " + format_string(Value) + "\n\n"
+
+
+    OutFile.close()
+
+
+
+input()
+
+
+DataList = Parsing_PIU_16SC_1G()
+ExtractFromOAM_andPrintFile(MakeListParsedDict(DataList))
+
+print(len(DataList))

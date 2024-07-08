@@ -1,0 +1,5108 @@
+
+
+
+----- N0.1 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600010400000000090087800000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+01 04 00 00 00 00 09 00 
+87 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-135	 [Branch :Actions, LeafName : ResetOnu] - Description : Reset ONU, as from power on
+	Branch : 0x09
+	Leaf : 0x0087
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.2 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600010400000000090087800000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+01 04 00 00 00 00 09 00 
+87 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-135	 [Branch :Actions, LeafName : ResetOnu] - Description : Reset ONU, as from power on
+	Branch : 0x09
+	Leaf : 0x0087
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.4 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db600
+
+[Total : 22bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x00]Info
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.5 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6006725001325803280324f4e542d55313034435400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000271cafaf3b0105080800080800000000000203d80400008032
+
+[Total : 121bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 00 67 25 
+00 13 25 80 32 80 32 4f 
+4e 54 2d 55 31 30 34 43 
+54 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+27 1c af af 3b 01 05 08 
+08 00 08 08 00 00 00 00 
+00 02 03 d8 04 00 00 80 
+32 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x00]Info
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.8 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030700d70200000000
+
+[Total : 30bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 07 00 
+d7 02 00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 7-215	 [Branch :Attributes, LeafName : FEC Mode, R/W : R/W] - Description : Gets/sets the current FEC mode
+	Branch : 0x07
+	Leaf : 0x00d7
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.9 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040700d78000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 07 00 
+d7 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 7-215	 [Branch :Attributes, LeafName : FEC Mode, R/W : R/W] - Description : Gets/sets the current FEC mode
+	Branch : 0x07
+	Leaf : 0x00d7
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.10 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030700e301010000
+
+[Total : 29bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 07 00 
+e3 01 01 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 7-227	 [Branch :Attributes, LeafName : Link State, R/W : W] - Description : Sets the current link state
+	Branch : 0x07
+	Leaf : 0x00e3
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.11 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040700e38000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 07 00 
+e3 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 7-227	 [Branch :Attributes, LeafName : Link State, R/W : W] - Description : Sets the current link state
+	Branch : 0x07
+	Leaf : 0x00e3
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.14 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030700a80429ac00000000
+
+[Total : 32bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 07 00 
+a8 04 29 ac 00 00 00 00 
+
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 7-168	 [Branch :Attributes, LeafName : Report Thresholds, R/W : R/W] - Description : Threshold levels used to generate MPCP reportmessages
+	Branch : 0x07
+	Leaf : 0x00a8
+	Width : 0x04  [4]
+	Value : 29 ac 00 00
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.15 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040700a88000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 07 00 
+a8 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 7-168	 [Branch :Attributes, LeafName : Report Thresholds, R/W : R/W] - Description : Threshold levels used to generate MPCP reportmessages
+	Branch : 0x07
+	Leaf : 0x00a8
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.16 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030900a602030a0000
+
+[Total : 30bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 09 00 
+a6 02 03 0a 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 9-166	 [Branch :Actions, LeafName : SetOamRate] - Description : Set OAM rate00 A7 GetOamRate Get OAM rate
+	Branch : 0x09
+	Leaf : 0x00a6
+	Width : 0x02  [2]
+	Value : 03 0a
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.17 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040900a68000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 09 00 
+a6 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 9-166	 [Branch :Actions, LeafName : SetOamRate] - Description : Set OAM rate00 A7 GetOamRate Get OAM rate
+	Branch : 0x09
+	Leaf : 0x00a6
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.18 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600010400000000090097800000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+01 04 00 00 00 00 09 00 
+97 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-151	 [Branch :Actions, LeafName : GetIgmpConfig] - Description : Get IGMP configuration
+	Branch : 0x09
+	Leaf : 0x0097
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.19 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60406000104000000000900970e0202041000100010001000000100000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+01 04 00 00 00 00 09 00 
+97 0e 02 02 04 10 00 10 
+00 10 00 10 00 00 01 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-151	 [Branch :Actions, LeafName : GetIgmpConfig] - Description : Get IGMP configuration
+	Branch : 0x09
+	Leaf : 0x0097
+	Width : 0x0e  [14]
+	Value : 02 02 04 10 00 10 00 10 00 10 00 00 01 00
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.20 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60306000104000000000900960e02020440014001400140010001000000
+
+[Total : 50bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+01 04 00 00 00 00 09 00 
+96 0e 02 02 04 40 01 40 
+01 40 01 40 01 00 01 00 
+00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-150	 [Branch :Actions, LeafName : SetIgmpConfig] - Description : Set IGMP configuration
+	Branch : 0x09
+	Leaf : 0x0096
+	Width : 0x0e  [14]
+	Value : 02 02 04 40 01 40 01 40 01 40 01 00 01 00
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.21 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600010400000000090096800000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+01 04 00 00 00 00 09 00 
+96 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-150	 [Branch :Actions, LeafName : SetIgmpConfig] - Description : Set IGMP configuration
+	Branch : 0x09
+	Leaf : 0x0096
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.22 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a70002000000
+
+[Total : 28bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+02 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.23 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a700020201050000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+02 02 01 05 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-2	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0002
+	Width : 0x02  [2]
+	Value : 01 05
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.24 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa03a700020201080000
+
+[Total : 30bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 03 a7 00 
+02 02 01 08 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 167-2	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0002
+	Width : 0x02  [2]
+	Value : 01 08
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.25 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa04a700028000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 04 a7 00 
+02 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-2	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0002
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.26 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030210000700b80000
+
+[Total : 33bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 10 00 07 00 b8 00 
+00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.27 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030210000700b80d000001000000000000000100000700b8a00000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 10 00 07 00 b8 0d 
+00 00 01 00 00 00 00 00 
+00 00 01 00 00 07 00 b8 
+a0 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 10 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x0d  [13]
+	Value : 00 00 01 00 00 00 00 00 00 00 01 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0xa0  [160]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.28 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200100700b8101f000100000f424040000004080402010000
+
+[Total : 50bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 10 07 00 b8 10 
+1f 00 01 00 00 0f 42 40 
+40 00 00 04 08 04 02 01 
+00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 10
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x10  [16]
+	Value : 1f 00 01 00 00 0f 42 40 40 00 00 04 08 04 02 01
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.29 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200100700b88000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 10 07 00 b8 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 10
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.30 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a70015000000
+
+[Total : 28bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+15 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.31 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a700150100000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+15 01 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-21	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0015
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.32 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa03a7001801000000
+
+[Total : 29bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 03 a7 00 
+18 01 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 167-24	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0018
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.33 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa04a700188000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 04 a7 00 
+18 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-24	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0018
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.34 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa03a7002101010000
+
+[Total : 29bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 03 a7 00 
+21 01 01 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 167-33	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0021
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.35 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa04a700218000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 04 a7 00 
+21 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-33	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0021
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.36 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa03a7002607010007701122110000
+
+[Total : 35bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 03 a7 00 
+26 07 01 00 07 70 11 22 
+11 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 167-38	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0026
+	Width : 0x07  [7]
+	Value : 01 00 07 70 11 22 11
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.37 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa04a700268000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 04 a7 00 
+26 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-38	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0026
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.38 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60306000104000000000900a2800000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+01 04 00 00 00 00 09 00 
+a2 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-162	 [Branch :Actions, LeafName : OnuEnableUserTraffic] - Description : Enable ONU user traffic
+	Branch : 0x09
+	Leaf : 0x00a2
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.39 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60406000104000000000900a2800000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+01 04 00 00 00 00 09 00 
+a2 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-1	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0001
+	Width : 0x04  [4]
+	Value : 00 00 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 9-162	 [Branch :Actions, LeafName : OnuEnableUserTraffic] - Description : Enable ONU user traffic
+	Branch : 0x09
+	Leaf : 0x00a2
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.40 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa03a7001c071446090d003a0c0000
+
+[Total : 35bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 03 a7 00 
+1c 07 14 46 09 0d 00 3a 
+0c 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 167-28	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x001c
+	Width : 0x07  [7]
+	Value : 14 46 09 0d 00 3a 0c
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.41 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa04a7001c8000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 04 a7 00 
+1c 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-28	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x001c
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.42 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60106000302000107002007005d07005a07004f0700a307001a0700470700b007001d077ff60000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 01 07 00 20 07 
+00 5d 07 00 5a 07 00 4f 
+07 00 a3 07 00 1a 07 00 
+47 07 00 b0 07 00 1d 07 
+7f f6 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.43 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db602060003020001070020012407005d02000007005a010207004f01020700a3010007001a010107004701030700b08007001d80077ff680
+
+[Total : 76bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 01 07 00 20 01 
+24 07 00 5d 02 00 00 07 
+00 5a 01 02 07 00 4f 01 
+02 07 00 a3 01 00 07 00 
+1a 01 01 07 00 47 01 03 
+07 00 b0 80 07 00 1d 80 
+07 7f f6 80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-32	 [Branch :Attributes, LeafName : PHY Type, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0020
+	Width : 0x01  [1]
+	Value : 24
+
+VarNum : 3
+	[Branch-Leaf] : 7-93	 [Branch :Attributes, LeafName : MAC Ctrl Functions Supported, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x005d
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-90	 [Branch :Attributes, LeafName : Duplex Status, R/W : R/W ] - Description : -
+	Branch : 0x07
+	Leaf : 0x005a
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 5
+	[Branch-Leaf] : 7-79	 [Branch :Attributes, LeafName : Auto Neg Admin State, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x004f
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 6
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 7
+	[Branch-Leaf] : 7-26	 [Branch :Attributes, LeafName : MAC Enable Status, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x001a
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 8
+	[Branch-Leaf] : 7-71	 [Branch :Attributes, LeafName : MAU Media Available, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0047
+	Width : 0x01  [1]
+	Value : 03
+
+VarNum : 9
+	[Branch-Leaf] : 7-176	 [Branch :Attributes, LeafName : MDI Crossover, R/W : R/W] - Description : MDI extended setting [obsolete]
+	Branch : 0x07
+	Leaf : 0x00b0
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 10
+	[Branch-Leaf] : 7-29	 [Branch :Attributes, LeafName : MAC Addr, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x001d
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 11
+	[Branch-Leaf] : 7-32758	 [Branch :Attributes, LeafName : Get/Set Port MTU, R/W : variesa] - Description : Gets/sets the MTU of a port on the ONU
+	Branch : 0x07
+	Leaf : 0x7ff6
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.44 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60306000302000109000c01020700a30100070053800000
+
+[Total : 44bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 01 09 00 0c 01 
+02 07 00 a3 01 00 07 00 
+53 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.45 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60406000302000109000c800700a380070053800000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 01 09 00 0c 80 
+07 00 a3 80 07 00 53 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.46 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60106000302000207002007005d07005a07004f0700a307001a0700470700b007001d077ff60000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 02 07 00 20 07 
+00 5d 07 00 5a 07 00 4f 
+07 00 a3 07 00 1a 07 00 
+47 07 00 b0 07 00 1d 07 
+7f f6 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.47 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db602060003020002070020012407005d02000007005a010207004f01020700a3010007001a010107004701030700b08007001d80077ff680
+
+[Total : 76bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 02 07 00 20 01 
+24 07 00 5d 02 00 00 07 
+00 5a 01 02 07 00 4f 01 
+02 07 00 a3 01 00 07 00 
+1a 01 01 07 00 47 01 03 
+07 00 b0 80 07 00 1d 80 
+07 7f f6 80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 7-32	 [Branch :Attributes, LeafName : PHY Type, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0020
+	Width : 0x01  [1]
+	Value : 24
+
+VarNum : 3
+	[Branch-Leaf] : 7-93	 [Branch :Attributes, LeafName : MAC Ctrl Functions Supported, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x005d
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-90	 [Branch :Attributes, LeafName : Duplex Status, R/W : R/W ] - Description : -
+	Branch : 0x07
+	Leaf : 0x005a
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 5
+	[Branch-Leaf] : 7-79	 [Branch :Attributes, LeafName : Auto Neg Admin State, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x004f
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 6
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 7
+	[Branch-Leaf] : 7-26	 [Branch :Attributes, LeafName : MAC Enable Status, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x001a
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 8
+	[Branch-Leaf] : 7-71	 [Branch :Attributes, LeafName : MAU Media Available, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0047
+	Width : 0x01  [1]
+	Value : 03
+
+VarNum : 9
+	[Branch-Leaf] : 7-176	 [Branch :Attributes, LeafName : MDI Crossover, R/W : R/W] - Description : MDI extended setting [obsolete]
+	Branch : 0x07
+	Leaf : 0x00b0
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 10
+	[Branch-Leaf] : 7-29	 [Branch :Attributes, LeafName : MAC Addr, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x001d
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 11
+	[Branch-Leaf] : 7-32758	 [Branch :Attributes, LeafName : Get/Set Port MTU, R/W : variesa] - Description : Gets/sets the MTU of a port on the ONU
+	Branch : 0x07
+	Leaf : 0x7ff6
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.48 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60306000302000209000c01020700a30100070053800000
+
+[Total : 44bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 02 09 00 0c 01 
+02 07 00 a3 01 00 07 00 
+53 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.49 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60406000302000209000c800700a380070053800000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 02 09 00 0c 80 
+07 00 a3 80 07 00 53 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.50 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60106000302000307002007005d07005a07004f0700a307001a0700470700b007001d077ff60000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 03 07 00 20 07 
+00 5d 07 00 5a 07 00 4f 
+07 00 a3 07 00 1a 07 00 
+47 07 00 b0 07 00 1d 07 
+7f f6 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.51 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db602060003020003070020012407005d02000007005a010207004f01020700a3010007001a010107004701010700b08007001d80077ff680
+
+[Total : 76bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 03 07 00 20 01 
+24 07 00 5d 02 00 00 07 
+00 5a 01 02 07 00 4f 01 
+02 07 00 a3 01 00 07 00 
+1a 01 01 07 00 47 01 01 
+07 00 b0 80 07 00 1d 80 
+07 7f f6 80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 03
+
+VarNum : 2
+	[Branch-Leaf] : 7-32	 [Branch :Attributes, LeafName : PHY Type, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0020
+	Width : 0x01  [1]
+	Value : 24
+
+VarNum : 3
+	[Branch-Leaf] : 7-93	 [Branch :Attributes, LeafName : MAC Ctrl Functions Supported, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x005d
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-90	 [Branch :Attributes, LeafName : Duplex Status, R/W : R/W ] - Description : -
+	Branch : 0x07
+	Leaf : 0x005a
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 5
+	[Branch-Leaf] : 7-79	 [Branch :Attributes, LeafName : Auto Neg Admin State, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x004f
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 6
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 7
+	[Branch-Leaf] : 7-26	 [Branch :Attributes, LeafName : MAC Enable Status, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x001a
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 8
+	[Branch-Leaf] : 7-71	 [Branch :Attributes, LeafName : MAU Media Available, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0047
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 9
+	[Branch-Leaf] : 7-176	 [Branch :Attributes, LeafName : MDI Crossover, R/W : R/W] - Description : MDI extended setting [obsolete]
+	Branch : 0x07
+	Leaf : 0x00b0
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 10
+	[Branch-Leaf] : 7-29	 [Branch :Attributes, LeafName : MAC Addr, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x001d
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 11
+	[Branch-Leaf] : 7-32758	 [Branch :Attributes, LeafName : Get/Set Port MTU, R/W : variesa] - Description : Gets/sets the MTU of a port on the ONU
+	Branch : 0x07
+	Leaf : 0x7ff6
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.52 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60306000302000309000c01020700a30100070053800000
+
+[Total : 44bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 03 09 00 0c 01 
+02 07 00 a3 01 00 07 00 
+53 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 03
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.53 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60406000302000309000c800700a380070053800000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 03 09 00 0c 80 
+07 00 a3 80 07 00 53 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 03
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.54 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60106000302000407002007005d07005a07004f0700a307001a0700470700b007001d077ff60000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 04 07 00 20 07 
+00 5d 07 00 5a 07 00 4f 
+07 00 a3 07 00 1a 07 00 
+47 07 00 b0 07 00 1d 07 
+7f f6 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.55 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db602060003020004070020012407005d02000007005a010207004f01020700a3010007001a010107004701030700b08007001d80077ff680
+
+[Total : 76bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 04 07 00 20 01 
+24 07 00 5d 02 00 00 07 
+00 5a 01 02 07 00 4f 01 
+02 07 00 a3 01 00 07 00 
+1a 01 01 07 00 47 01 03 
+07 00 b0 80 07 00 1d 80 
+07 7f f6 80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 04
+
+VarNum : 2
+	[Branch-Leaf] : 7-32	 [Branch :Attributes, LeafName : PHY Type, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0020
+	Width : 0x01  [1]
+	Value : 24
+
+VarNum : 3
+	[Branch-Leaf] : 7-93	 [Branch :Attributes, LeafName : MAC Ctrl Functions Supported, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x005d
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-90	 [Branch :Attributes, LeafName : Duplex Status, R/W : R/W ] - Description : -
+	Branch : 0x07
+	Leaf : 0x005a
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 5
+	[Branch-Leaf] : 7-79	 [Branch :Attributes, LeafName : Auto Neg Admin State, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x004f
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 6
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 7
+	[Branch-Leaf] : 7-26	 [Branch :Attributes, LeafName : MAC Enable Status, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x001a
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 8
+	[Branch-Leaf] : 7-71	 [Branch :Attributes, LeafName : MAU Media Available, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0047
+	Width : 0x01  [1]
+	Value : 03
+
+VarNum : 9
+	[Branch-Leaf] : 7-176	 [Branch :Attributes, LeafName : MDI Crossover, R/W : R/W] - Description : MDI extended setting [obsolete]
+	Branch : 0x07
+	Leaf : 0x00b0
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 10
+	[Branch-Leaf] : 7-29	 [Branch :Attributes, LeafName : MAC Addr, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x001d
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 11
+	[Branch-Leaf] : 7-32758	 [Branch :Attributes, LeafName : Get/Set Port MTU, R/W : variesa] - Description : Gets/sets the MTU of a port on the ONU
+	Branch : 0x07
+	Leaf : 0x7ff6
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.56 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a7001b000000
+
+[Total : 28bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+1b 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.57 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a7001b0a27b47f423ee44c960145000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+1b 0a 27 b4 7f 42 3e e4 
+4c 96 01 45 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-27	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x001b
+	Width : 0x0a  [10]
+	Value : 27 b4 7f 42 3e e4 4c 96 01 45
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.58 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60306000302000409000c01020700a30100070053800000
+
+[Total : 44bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 04 09 00 0c 01 
+02 07 00 a3 01 00 07 00 
+53 80 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 04
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x01  [1]
+	Value : 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.59 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60406000302000409000c800700a380070053800000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 04 09 00 0c 80 
+07 00 a3 80 07 00 53 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 04
+
+VarNum : 2
+	[Branch-Leaf] : 9-12	 [Branch :Actions, LeafName : Auto Neg Admin Ctrl] - Description : Auto Neg enable/disable
+	Branch : 0x09
+	Leaf : 0x000c
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-163	 [Branch :Attributes, LeafName : Len Error Discard, R/W : R/W] - Description : Frames discarded due to length errors
+	Branch : 0x07
+	Leaf : 0x00a3
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	[Branch-Leaf] : 7-83	 [Branch :Attributes, LeafName : Auto Neg Advertised Tech, R/W : R/W] - Description : –
+	Branch : 0x07
+	Leaf : 0x0053
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.60 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a70016000000
+
+[Total : 28bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+16 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.61 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a700160102000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+16 01 02 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-22	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0016
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.62 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600820200000700130700c307000f07001007001106008302ffff0700230700240000
+
+[Total : 57bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+82 02 00 00 07 00 13 07 
+00 c3 07 00 0f 07 00 10 
+07 00 11 06 00 83 02 ff 
+ff 07 00 23 07 00 24 00 
+00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.63 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600820200000700130800000000000000000700c3010307000f08000000000000000007001008000000000000000007001108000000000000000006008380ff07ff80
+
+[Total : 89bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+82 02 00 00 07 00 13 08 
+00 00 00 00 00 00 00 00 
+07 00 c3 01 03 07 00 0f 
+08 00 00 00 00 00 00 00 
+00 07 00 10 08 00 00 00 
+00 00 00 00 00 07 00 11 
+08 00 00 00 00 00 00 00 
+00 06 00 83 80 ff 07 ff 
+80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-130	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0082
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-19	 [Branch :Attributes, LeafName : Broadcast Frames Tx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0013
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-195	 [Branch :Attributes, LeafName : RSTP Bridge Mode, R/W : R/W] - Description : Gets/sets the RSTP Bridge mode of one port
+	Branch : 0x07
+	Leaf : 0x00c3
+	Width : 0x01  [1]
+	Value : 03
+
+VarNum : 4
+	[Branch-Leaf] : 7-15	 [Branch :Attributes, LeafName : Frames Lost MAC, R/W : RX] - Description : Error R Frames lost due to MAC receive error
+	Branch : 0x07
+	Leaf : 0x000f
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 5
+	[Branch-Leaf] : 7-16	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0010
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 6
+	[Branch-Leaf] : 7-17	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0011
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 7
+	[Branch-Leaf] : 6-131	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0083
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 8
+	[Branch-Leaf] : 255-2047	 [데이터 부재 Case 2 - Data X]
+	Branch : 0xff
+	Leaf : 0x07ff
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.64 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600820200000700130700c307000f07001007001106008302ffff0700230700240000
+
+[Total : 57bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+82 02 00 00 07 00 13 07 
+00 c3 07 00 0f 07 00 10 
+07 00 11 06 00 83 02 ff 
+ff 07 00 23 07 00 24 00 
+00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.65 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600820200000700130800000000000000000700c3010307000f08000000000000000007001008000000000000000007001108000000000000000006008380ff07ff80
+
+[Total : 89bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+82 02 00 00 07 00 13 08 
+00 00 00 00 00 00 00 00 
+07 00 c3 01 03 07 00 0f 
+08 00 00 00 00 00 00 00 
+00 07 00 10 08 00 00 00 
+00 00 00 00 00 07 00 11 
+08 00 00 00 00 00 00 00 
+00 06 00 83 80 ff 07 ff 
+80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-130	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0082
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-19	 [Branch :Attributes, LeafName : Broadcast Frames Tx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0013
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-195	 [Branch :Attributes, LeafName : RSTP Bridge Mode, R/W : R/W] - Description : Gets/sets the RSTP Bridge mode of one port
+	Branch : 0x07
+	Leaf : 0x00c3
+	Width : 0x01  [1]
+	Value : 03
+
+VarNum : 4
+	[Branch-Leaf] : 7-15	 [Branch :Attributes, LeafName : Frames Lost MAC, R/W : RX] - Description : Error R Frames lost due to MAC receive error
+	Branch : 0x07
+	Leaf : 0x000f
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 5
+	[Branch-Leaf] : 7-16	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0010
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 6
+	[Branch-Leaf] : 7-17	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0011
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 7
+	[Branch-Leaf] : 6-131	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0083
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 8
+	[Branch-Leaf] : 255-2047	 [데이터 부재 Case 2 - Data X]
+	Branch : 0xff
+	Leaf : 0x07ff
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.66 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600820200000700130280000700c3010307000f02ea600700100200c80700110205dc0000
+
+[Total : 59bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+82 02 00 00 07 00 13 02 
+80 00 07 00 c3 01 03 07 
+00 0f 02 ea 60 07 00 10 
+02 00 c8 07 00 11 02 05 
+dc 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-130	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0082
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-19	 [Branch :Attributes, LeafName : Broadcast Frames Tx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0013
+	Width : 0x02  [2]
+	Value : 80 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-195	 [Branch :Attributes, LeafName : RSTP Bridge Mode, R/W : R/W] - Description : Gets/sets the RSTP Bridge mode of one port
+	Branch : 0x07
+	Leaf : 0x00c3
+	Width : 0x01  [1]
+	Value : 03
+
+VarNum : 4
+	[Branch-Leaf] : 7-15	 [Branch :Attributes, LeafName : Frames Lost MAC, R/W : RX] - Description : Error R Frames lost due to MAC receive error
+	Branch : 0x07
+	Leaf : 0x000f
+	Width : 0x02  [2]
+	Value : ea 60
+
+VarNum : 5
+	[Branch-Leaf] : 7-16	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0010
+	Width : 0x02  [2]
+	Value : 00 c8
+
+VarNum : 6
+	[Branch-Leaf] : 7-17	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0011
+	Width : 0x02  [2]
+	Value : 05 dc
+
+VarNum : 7
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.67 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db604060082020000070013800700c38007000f800700108007001180000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+82 02 00 00 07 00 13 80 
+07 00 c3 80 07 00 0f 80 
+07 00 10 80 07 00 11 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-130	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0082
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-19	 [Branch :Attributes, LeafName : Broadcast Frames Tx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0013
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-195	 [Branch :Attributes, LeafName : RSTP Bridge Mode, R/W : R/W] - Description : Gets/sets the RSTP Bridge mode of one port
+	Branch : 0x07
+	Leaf : 0x00c3
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	[Branch-Leaf] : 7-15	 [Branch :Attributes, LeafName : Frames Lost MAC, R/W : RX] - Description : Error R Frames lost due to MAC receive error
+	Branch : 0x07
+	Leaf : 0x000f
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 5
+	[Branch-Leaf] : 7-16	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0010
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 6
+	[Branch-Leaf] : 7-17	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x0011
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 7
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.68 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200010700bc0700bd0000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 01 07 00 bc 07 
+00 bd 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.69 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200010700bc060000000000010700bd02000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 01 07 00 bc 06 
+00 00 00 00 00 01 07 00 
+bd 02 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 00 00 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.70 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200010700bc060000030300010700bd090001000100010002000000
+
+[Total : 53bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 01 07 00 bc 06 
+00 00 03 03 00 01 07 00 
+bd 09 00 01 00 01 00 01 
+00 02 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 03 03 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x09  [9]
+	Value : 00 01 00 01 00 01 00 02 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.71 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200010700bc800700bd80000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 01 07 00 bc 80 
+07 00 bd 80 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.72 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200020700bc0700bd0000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 02 07 00 bc 07 
+00 bd 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.73 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200020700bc060000000000010700bd02000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 02 07 00 bc 06 
+00 00 00 00 00 01 07 00 
+bd 02 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 00 00 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.74 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200020700bc060000030300010700bd090001000100010002000000
+
+[Total : 53bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 02 07 00 bc 06 
+00 00 03 03 00 01 07 00 
+bd 09 00 01 00 01 00 01 
+00 02 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 03 03 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x09  [9]
+	Value : 00 01 00 01 00 01 00 02 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.75 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200020700bc800700bd80000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 02 07 00 bc 80 
+07 00 bd 80 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.76 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa03a7001a01020000
+
+[Total : 29bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 03 a7 00 
+1a 01 02 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 167-26	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x001a
+	Width : 0x01  [1]
+	Value : 02
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.77 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa04a7001a8000000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 04 a7 00 
+1a 80 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-26	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x001a
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.78 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200030700bc0700bd0000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 03 07 00 bc 07 
+00 bd 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.79 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200030700bc060000000000010700bd02000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 03 07 00 bc 06 
+00 00 00 00 00 01 07 00 
+bd 02 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 03
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 00 00 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.80 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200030700bc060000030300010700bd090001000100010002000000
+
+[Total : 53bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 03 07 00 bc 06 
+00 00 03 03 00 01 07 00 
+bd 09 00 01 00 01 00 01 
+00 02 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 03
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 03 03 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x09  [9]
+	Value : 00 01 00 01 00 01 00 02 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.81 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200030700bc800700bd80000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 03 07 00 bc 80 
+07 00 bd 80 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 03
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.82 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200040700bc0700bd0000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 04 07 00 bc 07 
+00 bd 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.83 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200040700bc060000000000010700bd02000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 04 07 00 bc 06 
+00 00 00 00 00 01 07 00 
+bd 02 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 04
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 00 00 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.84 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200040700bc060000030300010700bd090001000100010002000000
+
+[Total : 53bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 04 07 00 bc 06 
+00 00 03 03 00 01 07 00 
+bd 09 00 01 00 01 00 01 
+00 02 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 04
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 03 03 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x09  [9]
+	Value : 00 01 00 01 00 01 00 02 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.85 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200040700bc800700bd80000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 04 07 00 bc 80 
+07 00 bd 80 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 04
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.86 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200000700bc0700bd0000
+
+[Total : 36bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 00 07 00 bc 07 
+00 bd 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.87 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200000700bc060000000000010700bd02000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 00 07 00 bc 06 
+00 00 00 00 00 01 07 00 
+bd 02 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 00 00 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.88 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200000700bc060000030300010700bd090001000100010002000000
+
+[Total : 53bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 00 07 00 bc 06 
+00 00 03 03 00 01 07 00 
+bd 09 00 01 00 01 00 01 
+00 02 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x06  [6]
+	Value : 00 00 03 03 00 01
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x09  [9]
+	Value : 00 01 00 01 00 01 00 02 00
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.89 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200000700bc800700bd80000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 00 07 00 bc 80 
+07 00 bd 80 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-188	 [Branch :Attributes, LeafName : Port Vlan Policy, R/W : R/W] - Description : Gets/sets the VLAN policy for a given port
+	Branch : 0x07
+	Leaf : 0x00bc
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	[Branch-Leaf] : 7-189	 [Branch :Attributes, LeafName : Port Vlan Membership, R/W : R/W] - Description : Gets/sets the current VLAN membership for a given port
+	Branch : 0x07
+	Leaf : 0x00bd
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.90 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a7002b000000
+
+[Total : 28bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+2b 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.91 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a7002b0effff0000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+2b 0e ff ff 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-43	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x002b
+	Width : 0x0e  [14]
+	Value : ff ff 00 00 00 00 00 00 00 00 00 00 00 00
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.92 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a7002c000000
+
+[Total : 28bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+2c 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.93 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a7002c0600000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+2c 06 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-44	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x002c
+	Width : 0x06  [6]
+	Value : 00 00 00 00 00 00
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.94 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200010700b80000
+
+[Total : 33bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 01 07 00 b8 00 
+00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.95 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200010700b80d000001000000000000000100000700b8800000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 01 07 00 b8 0d 
+00 00 01 00 00 00 00 00 
+00 00 01 00 00 07 00 b8 
+80 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x0d  [13]
+	Value : 00 00 01 00 00 00 00 00 00 00 01 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.96 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200010700b8101f0001000000000000000104080402010000
+
+[Total : 50bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 01 07 00 b8 10 
+1f 00 01 00 00 00 00 00 
+00 00 01 04 08 04 02 01 
+00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x10  [16]
+	Value : 1f 00 01 00 00 00 00 00 00 00 01 04 08 04 02 01
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00
+
+
+
+
+----- N0.97 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6040600030200010700b88000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 04 06 00 
+03 02 00 01 07 00 b8 80 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x04]Set Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.98 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200020700b80000
+
+[Total : 33bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 02 07 00 b8 00 
+00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.99 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200020700b80d000001000000000000000100000700b8800000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 02 07 00 b8 0d 
+00 00 01 00 00 00 00 00 
+00 00 01 00 00 07 00 b8 
+80 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x0d  [13]
+	Value : 00 00 01 00 00 00 00 00 00 00 01 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 4
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.100 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6030600030200020700b8101f00
+
+[Total : 34bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 03 06 00 
+03 02 00 02 07 00 b8 10 
+1f 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x03]Set Request
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 02
+
+VarNum : 2
+	[Branch-Leaf] : 7-184	 [Branch :Attributes, LeafName : Egress Shaping, R/W : R/W] - Description : Rate control for frames egressing a port
+	Branch : 0x07
+	Leaf : 0x00b8
+	Width : 0x10  [16]
+	Value : 1f 00
+
+
+
+
+----- N0.101 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db6010600030200010700ba0000
+
+[Total : 33bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 01 07 00 ba 00 
+00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.102 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db6020600030200010700ba1300010000000101020203030404050506060707000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 01 07 00 ba 13 
+00 01 00 00 00 01 01 02 
+02 03 03 04 04 05 05 06 
+06 07 07 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 01
+
+VarNum : 2
+	[Branch-Leaf] : 7-186	 [Branch :Attributes, LeafName : COS Translation, R/W : R/W] - Description : COS translation (which COS value becomes which COS value)
+	Branch : 0x07
+	Leaf : 0x00ba
+	Width : 0x13  [19]
+	Value : 00 01 00 00 00 01 01 02 02 03 03 04 04 05 05 06 06 07 07
+
+VarNum : 3
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.103 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809
+
+[Total : 14bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x
+Flags: 0x
+Code: 0x
+
+!!!!!!!!!!!Length Error!!!!!!!
+
+
+
+
+----- N0.104 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FEaaaaaa01a7002501000000
+
+[Total : 29bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE aa aa aa 01 a7 00 
+25 01 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.105 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FEaaaaaa02a700250101000000000000000000000000000000000000000000000000000000000000000000
+
+[Total : 60bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE aa aa aa 02 a7 00 
+25 01 01 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : aaaaaa
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 167-37	 [데이터 부재 Case 1 - Branch == 167]
+	Branch : 0xa7
+	Leaf : 0x0025
+	Width : 0x01  [1]
+	Value : 01
+
+VarNum : 2
+	Branch : 0x00 [0x00 is End!]
+	value : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+
+----- N0.106 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60106000302000007000e07000507008407001507001607008707008807008907008a07008b07008c07008d0700860700060700f907002307009e07009d07009f07009c07009b0700e90700df0000
+
+[Total : 99bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 00 07 00 0e 07 
+00 05 07 00 84 07 00 15 
+07 00 16 07 00 87 07 00 
+88 07 00 89 07 00 8a 07 
+00 8b 07 00 8c 07 00 8d 
+07 00 86 07 00 06 07 00 
+f9 07 00 23 07 00 9e 07 
+00 9d 07 00 9f 07 00 9c 
+07 00 9b 07 00 e9 07 00 
+df 00 00 
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.107 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60206000302000007000e08000000000000000007000508000000000000000007008408000000000000000007001508000000000000000007001608000000000000000007008708000000000000000007008808000000000000000007008908000000000000000007008a08000000000000000007008b08000000000000000007008c08000000000000000007008d0800000000000000000700860800000000000000000700060800000000000000000700f9a1070023a107009e08000000000000000007009d08000000000000000007009f08000000000000000007009ca107009ba10700e9800700df80
+
+[Total : 256bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 00 07 00 0e 08 
+00 00 00 00 00 00 00 00 
+07 00 05 08 00 00 00 00 
+00 00 00 00 07 00 84 08 
+00 00 00 00 00 00 00 00 
+07 00 15 08 00 00 00 00 
+00 00 00 00 07 00 16 08 
+00 00 00 00 00 00 00 00 
+07 00 87 08 00 00 00 00 
+00 00 00 00 07 00 88 08 
+00 00 00 00 00 00 00 00 
+07 00 89 08 00 00 00 00 
+00 00 00 00 07 00 8a 08 
+00 00 00 00 00 00 00 00 
+07 00 8b 08 00 00 00 00 
+00 00 00 00 07 00 8c 08 
+00 00 00 00 00 00 00 00 
+07 00 8d 08 00 00 00 00 
+00 00 00 00 07 00 86 08 
+00 00 00 00 00 00 00 00 
+07 00 06 08 00 00 00 00 
+00 00 00 00 07 00 f9 a1 
+07 00 23 a1 07 00 9e 08 
+00 00 00 00 00 00 00 00 
+07 00 9d 08 00 00 00 00 
+00 00 00 00 07 00 9f 08 
+00 00 00 00 00 00 00 00 
+07 00 9c a1 07 00 9b a1 
+07 00 e9 80 07 00 df 80 
+
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-14	 [Branch :Attributes, LeafName : Octets RX OK, R/W : R] - Description : Octets received in good frames
+	Branch : 0x07
+	Leaf : 0x000e
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-5	 [Branch :Attributes, LeafName : Frames RX OK, R/W : R] - Description : Frames received with no errors
+	Branch : 0x07
+	Leaf : 0x0005
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-132	 [Branch :Attributes, LeafName : RxUnicastFrames, R/W : R] - Description : Gets RxUnicastFrames counter of one port
+	Branch : 0x07
+	Leaf : 0x0084
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 5
+	[Branch-Leaf] : 7-21	 [Branch :Attributes, LeafName : Multicast Frames Rx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0015
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 6
+	[Branch-Leaf] : 7-22	 [Branch :Attributes, LeafName : Broadcast Frames Rx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0016
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 7
+	[Branch-Leaf] : 7-135	 [Branch :Attributes, LeafName : RxFrame64, R/W : R] - Description : 64 byte frame count
+	Branch : 0x07
+	Leaf : 0x0087
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 8
+	[Branch-Leaf] : 7-136	 [Branch :Attributes, LeafName : RxFrame65_127, R/W : R] - Description : 65..127 byte frame count
+	Branch : 0x07
+	Leaf : 0x0088
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 9
+	[Branch-Leaf] : 7-137	 [Branch :Attributes, LeafName : RxFrame128_255, R/W : R] - Description : 128..255 byte frame count
+	Branch : 0x07
+	Leaf : 0x0089
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 10
+	[Branch-Leaf] : 7-138	 [Branch :Attributes, LeafName : RxFrame256_511, R/W : R] - Description : 256..511 byte frame count
+	Branch : 0x07
+	Leaf : 0x008a
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 11
+	[Branch-Leaf] : 7-139	 [Branch :Attributes, LeafName : RxFrame512_1023, R/W : R] - Description : 512..1023 byte frame count
+	Branch : 0x07
+	Leaf : 0x008b
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 12
+	[Branch-Leaf] : 7-140	 [Branch :Attributes, LeafName : RxFrame1024_1518, R/W : R] - Description : 1024..1518 byte frame count
+	Branch : 0x07
+	Leaf : 0x008c
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 13
+	[Branch-Leaf] : 7-141	 [Branch :Attributes, LeafName : RxFrame1519Plus, R/W : R] - Description : 1519+ byte frame count
+	Branch : 0x07
+	Leaf : 0x008d
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 14
+	[Branch-Leaf] : 7-134	 [Branch :Attributes, LeafName : RxFrameTooShort, R/W : R] - Description : Gets RxFrameTooShort counter of one port
+	Branch : 0x07
+	Leaf : 0x0086
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 15
+	[Branch-Leaf] : 7-6	 [Branch :Attributes, LeafName : FCS Err, R/W : R] - Description : Frames received with FCS errors
+	Branch : 0x07
+	Leaf : 0x0006
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 16
+	[Branch-Leaf] : 7-249	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x00f9
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 17
+	[Branch-Leaf] : 7-35	 [Branch :Attributes, LeafName : PHY Symbol Err DuringCarrier, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0023
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 18
+	[Branch-Leaf] : 7-158	 [Branch :Attributes, LeafName : RxBytesDropped, R/W : R] - Description : Downstream bytes dropped due to queue overflow
+	Branch : 0x07
+	Leaf : 0x009e
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 19
+	[Branch-Leaf] : 7-157	 [Branch :Attributes, LeafName : RxFramesDropped, R/W : R] - Description : Downstream frames dropped due to queue overflow
+	Branch : 0x07
+	Leaf : 0x009d
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 20
+	[Branch-Leaf] : 7-159	 [Branch :Attributes, LeafName : RxBytesDelayed, R/W : R] - Description : Bytes in downstream frames delayed more thanRxDelayThreshold
+	Branch : 0x07
+	Leaf : 0x009f
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 21
+	[Branch-Leaf] : 7-156	 [Branch :Attributes, LeafName : RxDelay, R/W : R] - Description : Maximum frame delay experienced since statisticreset
+	Branch : 0x07
+	Leaf : 0x009c
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 22
+	[Branch-Leaf] : 7-155	 [Branch :Attributes, LeafName : RxDelayThreshold, R/W : R] - Description : Threshold (in 100 μs increments) for delay thatcauses Bytes Delayed counter to increment
+	Branch : 0x07
+	Leaf : 0x009b
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 23
+	[Branch-Leaf] : 7-233	 [Branch :Attributes, LeafName :-, R/W :-] - Description :-
+	Branch : 0x07
+	Leaf : 0x00e9
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 24
+	[Branch-Leaf] : 7-223	 [Branch :Attributes, LeafName : Rx Power, R/W : R] - Description : Gets the current power monitor RX power
+	Branch : 0x07
+	Leaf : 0x00df
+	Width : 0x80  [128]
+	Value : -NONE-
+
+
+
+
+----- N0.108 -------------------------------------------------------------------------
+
+Full Data : 0180C2000002002337B60DB58809030050FE000db60106000302000007000807000207008507001207001307008e07008f07009007009107009207009307009407009807009707009907009607009507009a0700de0700dc0700dd0700db0000
+
+[Total : 96bytes ]
+
+01 80 C2 00 00 02 00 23 
+37 B6 0D B5 88 09 03 00 
+50 FE 00 0d b6 01 06 00 
+03 02 00 00 07 00 08 07 
+00 02 07 00 85 07 00 12 
+07 00 13 07 00 8e 07 00 
+8f 07 00 90 07 00 91 07 
+00 92 07 00 93 07 00 94 
+07 00 98 07 00 97 07 00 
+99 07 00 96 07 00 95 07 
+00 9a 07 00 de 07 00 dc 
+07 00 dd 07 00 db 00 00 
+
+
+
+Dst: 0x0180C2000002
+Src: 0x002337B60DB5
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x01]Get Request
+
+Skip [00]Info and [01]Get Request 
+
+
+
+
+----- N0.109 -------------------------------------------------------------------------
+
+Full Data : 0180C200000200271CAFAF3B8809030050FE000db60206000302000007000808000000000000000007000208000000000000000007008508000000000000000007001208000000000000000007001308000000000000000007008e08000000000000000007008f080000000000000000070090080000000000000000070091080000000000000000070092080000000000000000070093080000000000000000070094080000000000000000070098080000000000000000070097080000000000000000070099a1070096a1070095a107009aa10700de800700dc800700dd800700db80
+
+[Total : 228bytes ]
+
+01 80 C2 00 00 02 00 27 
+1C AF AF 3B 88 09 03 00 
+50 FE 00 0d b6 02 06 00 
+03 02 00 00 07 00 08 08 
+00 00 00 00 00 00 00 00 
+07 00 02 08 00 00 00 00 
+00 00 00 00 07 00 85 08 
+00 00 00 00 00 00 00 00 
+07 00 12 08 00 00 00 00 
+00 00 00 00 07 00 13 08 
+00 00 00 00 00 00 00 00 
+07 00 8e 08 00 00 00 00 
+00 00 00 00 07 00 8f 08 
+00 00 00 00 00 00 00 00 
+07 00 90 08 00 00 00 00 
+00 00 00 00 07 00 91 08 
+00 00 00 00 00 00 00 00 
+07 00 92 08 00 00 00 00 
+00 00 00 00 07 00 93 08 
+00 00 00 00 00 00 00 00 
+07 00 94 08 00 00 00 00 
+00 00 00 00 07 00 98 08 
+00 00 00 00 00 00 00 00 
+07 00 97 08 00 00 00 00 
+00 00 00 00 07 00 99 a1 
+07 00 96 a1 07 00 95 a1 
+07 00 9a a1 07 00 de 80 
+07 00 dc 80 07 00 dd 80 
+07 00 db 80 
+
+
+Dst: 0x0180C2000002
+Src: 0x00271CAFAF3B
+Len_Type: 0x8809
+Subtype: 0x03
+Flags: 0x0050
+Code: 0xFE
+
+OUI : 000db6
+Op : [0x02]Get Response
+
+VarNum : 1
+	[Branch-Leaf] : 6-3	 [데이터 부재 Case 2 - Data X]
+	Branch : 0x06
+	Leaf : 0x0003
+	Width : 0x02  [2]
+	Value : 00 00
+
+VarNum : 2
+	[Branch-Leaf] : 7-8	 [Branch :Attributes, LeafName : Octets TX OK, R/W : R] - Description : Octets transmitted in frames with no errors
+	Branch : 0x07
+	Leaf : 0x0008
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 3
+	[Branch-Leaf] : 7-2	 [Branch :Attributes, LeafName : Frames TX OK, R/W : R] - Description : Frames transmitted
+	Branch : 0x07
+	Leaf : 0x0002
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 4
+	[Branch-Leaf] : 7-133	 [Branch :Attributes, LeafName : TxUnicastFrames, R/W : R] - Description : Gets TxUnicastFrames counter of one port
+	Branch : 0x07
+	Leaf : 0x0085
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 5
+	[Branch-Leaf] : 7-18	 [Branch :Attributes, LeafName : Multicast Frames Tx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0012
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 6
+	[Branch-Leaf] : 7-19	 [Branch :Attributes, LeafName : Broadcast Frames Tx, R/W : R] - Description : –
+	Branch : 0x07
+	Leaf : 0x0013
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 7
+	[Branch-Leaf] : 7-142	 [Branch :Attributes, LeafName : TxFrame64, R/W : R] - Description : 64 byte frame count
+	Branch : 0x07
+	Leaf : 0x008e
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 8
+	[Branch-Leaf] : 7-143	 [Branch :Attributes, LeafName : TxFrame65_127, R/W : R] - Description : 65..127 byte frame count
+	Branch : 0x07
+	Leaf : 0x008f
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 9
+	[Branch-Leaf] : 7-144	 [Branch :Attributes, LeafName : TxFrame128_255, R/W : R] - Description : 128..255 byte frame count
+	Branch : 0x07
+	Leaf : 0x0090
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 10
+	[Branch-Leaf] : 7-145	 [Branch :Attributes, LeafName : TxFrame256_511, R/W : R] - Description : 256..511 byte frame count
+	Branch : 0x07
+	Leaf : 0x0091
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 11
+	[Branch-Leaf] : 7-146	 [Branch :Attributes, LeafName : TxFrame512_1023, R/W : R] - Description : 512..1023 byte frame count
+	Branch : 0x07
+	Leaf : 0x0092
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 12
+	[Branch-Leaf] : 7-147	 [Branch :Attributes, LeafName : TxFrame1024_1518, R/W : R] - Description : 1024..1518 byte frame count
+	Branch : 0x07
+	Leaf : 0x0093
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 13
+	[Branch-Leaf] : 7-148	 [Branch :Attributes, LeafName : TxFrame1519Plus, R/W : R] - Description : 1519+ byte frame count
+	Branch : 0x07
+	Leaf : 0x0094
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 14
+	[Branch-Leaf] : 7-152	 [Branch :Attributes, LeafName : TxBytesDropped, R/W : R] - Description : Upstream bytes dropped due to queue overflow
+	Branch : 0x07
+	Leaf : 0x0098
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 15
+	[Branch-Leaf] : 7-151	 [Branch :Attributes, LeafName : TxFramesDropped, R/W : R] - Description : Upstream frames dropped due to queue overflow
+	Branch : 0x07
+	Leaf : 0x0097
+	Width : 0x08  [8]
+	Value : 00 00 00 00 00 00 00 00
+
+VarNum : 16
+	[Branch-Leaf] : 7-153	 [Branch :Attributes, LeafName : TxBytesDelayed, R/W : R] - Description : Bytes in frames delayed more thanTxDelayThreshold
+	Branch : 0x07
+	Leaf : 0x0099
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 17
+	[Branch-Leaf] : 7-150	 [Branch :Attributes, LeafName : TxDelay, R/W : R] - Description : Maximum frame delay experienced since statisticreset
+	Branch : 0x07
+	Leaf : 0x0096
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 18
+	[Branch-Leaf] : 7-149	 [Branch :Attributes, LeafName : TxDelayThreshold, R/W : R/W] - Description : Threshold for delay that causes Bytes Delayedcounter to increment
+	Branch : 0x07
+	Leaf : 0x0095
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 19
+	[Branch-Leaf] : 7-154	 [Branch :Attributes, LeafName : TxBytesUnused, R/W : R] - Description : Bytes granted to the LLID, but not filled withtransmitted data.
+	Branch : 0x07
+	Leaf : 0x009a
+	Width : 0xa1  [161]
+	Value : -NONE-
+
+VarNum : 20
+	[Branch-Leaf] : 7-222	 [Branch :Attributes, LeafName : Tx Power, R/W : R] - Description : Gets the current power monitor TX power
+	Branch : 0x07
+	Leaf : 0x00de
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 21
+	[Branch-Leaf] : 7-220	 [Branch :Attributes, LeafName : Vcc, R/W : R] - Description : Gets the current power monitor Vcc
+	Branch : 0x07
+	Leaf : 0x00dc
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 22
+	[Branch-Leaf] : 7-221	 [Branch :Attributes, LeafName : Tx Bias, R/W : R] - Description : Gets the current power monitor TX bias
+	Branch : 0x07
+	Leaf : 0x00dd
+	Width : 0x80  [128]
+	Value : -NONE-
+
+VarNum : 23
+	[Branch-Leaf] : 7-219	 [Branch :Attributes, LeafName : Temperature, R/W : R] - Description : Gets the current power monitor temperature
+	Branch : 0x07
+	Leaf : 0x00db
+	Width : 0x80  [128]
+	Value : -NONE-
+

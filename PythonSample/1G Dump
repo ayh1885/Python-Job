@@ -1,34 +1,40 @@
-[2463541 ms] OLT(T)
+1100/>
+[586380 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 03 06 00 01 04 00 00 00 00 09 00 87 80 00 00
 
 
-[2463542 ms] ONU(R)
+[586382 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
-04 06 00 01 04 00 00 00 00 09 00 87 80 02 02 2e
-80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+04 06 00 01 04 00 00 00 00 09 00 87 80 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00
 
 
-[2467192 ms] OLT(T)
+1100/>
+1100/>
+1100/>
+1100/>
+1100/>
+[590031 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 06 02 7f ff 00 01 00 00
 
 
-[2480088 ms] OLT(T)
+[605902 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 00
 
 
-[2480096 ms] ONU(R)
+[605903 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -41,14 +47,14 @@ Type FE, OUI 000db6
 00 00 80 32
 
 
-[2480097 ms] OLT(T)
+[605904 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 06 02 7f ff 00 01 00 00
 
 
-[2480098 ms] ONU(R)
+[605906 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -57,14 +63,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2480098 ms] OLT(T)
+[605907 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 03 07 00 d7 02 00 00 00 00
 
 
-[2480104 ms] ONU(R)
+[605912 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -73,14 +79,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2480122 ms] OLT(T)
+[605931 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 03 07 00 e3 01 01 00 00
 
 
-[2480124 ms] ONU(R)
+[605933 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -89,14 +95,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2480124 ms] OLT(T)
+[605934 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 06 03 7f ff 00 01 00 00
 
 
-[2480125 ms] ONU(R)
+[605935 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -105,14 +111,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2480126 ms] OLT(T)
+[605936 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 03 07 00 a8 04 29 ac 00 00 00 00
 
 
-[2480128 ms] ONU(R)
+[605938 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -121,14 +127,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2480128 ms] OLT(T)
+[605939 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 03 09 00 a6 02 03 0a 00 00
 
 
-[2480130 ms] ONU(R)
+[605940 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -137,14 +143,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481140 ms] OLT(T)
+[606947 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 03 06 00 01 04 00 00 00 00 09 00 97 80 00 00
 
 
-[2481142 ms] ONU(R)
+[606949 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -153,7 +159,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481143 ms] OLT(T)
+[606950 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -161,7 +167,7 @@ Type FE, OUI 000db6
 40 01 40 01 40 01 40 01 00 01 00 00 00
 
 
-[2481144 ms] ONU(R)
+[606952 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -170,14 +176,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481147 ms] OLT(T)
+[606955 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 01 a7 00 02 00 00 00
 
 
-[2481148 ms] ONU(R)
+[606957 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -186,14 +192,14 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481149 ms] OLT(T)
+[606958 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 03 a7 00 02 02 01 08 00 00
 
 
-[2481152 ms] ONU(R)
+[606960 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -202,14 +208,14 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481153 ms] OLT(T)
+[606962 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 01 06 00 03 02 10 00 07 00 b8 00 00
 
 
-[2481154 ms] ONU(R)
+[606964 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -218,7 +224,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481155 ms] OLT(T)
+[606965 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -226,7 +232,7 @@ Type FE, OUI 000db6
 0f 42 40 40 00 00 04 08 04 02 01 00 00
 
 
-[2481157 ms] ONU(R)
+[606967 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -235,14 +241,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481158 ms] OLT(T)
+[606968 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 01 a7 00 15 00 00 00
 
 
-[2481159 ms] ONU(R)
+[606970 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -251,14 +257,14 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481160 ms] OLT(T)
+[606972 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 03 a7 00 18 01 00 00 00
 
 
-[2481166 ms] ONU(R)
+[606978 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -267,14 +273,14 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481167 ms] OLT(T)
+[606979 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 03 a7 00 21 01 01 00 00
 
 
-[2481179 ms] ONU(R)
+[606992 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -283,14 +289,14 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481180 ms] OLT(T)
+[606993 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 03 a7 00 26 07 01 00 07 70 11 22 11 00 00
 
 
-[2481198 ms] ONU(R)
+[607011 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -299,30 +305,30 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481199 ms] OLT(T)
+[607012 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
-03 06 00 01 04 00 00 00 00 09 00 a3 80 00 00
+03 06 00 01 04 00 00 00 00 09 00 a2 80 00 00
 
 
-[2481200 ms] ONU(R)
+[607015 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
-04 06 00 01 04 00 00 00 00 09 00 a3 80 00 00 00
+04 06 00 01 04 00 00 00 00 09 00 a2 80 00 00 00
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00
 
 
-[2481201 ms] OLT(T)
+[607016 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
-03 a7 00 1c 07 14 46 09 06 00 19 35 00 00
+03 a7 00 1c 07 14 46 09 0d 00 3a 0c 00 00
 
 
-[2481210 ms] ONU(R)
+[607024 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -331,7 +337,7 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2481271 ms] OLT(T)
+[607046 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -340,17 +346,17 @@ Type FE, OUI 000db6
 00 1d 07 7f f6 00 00
 
 
-[2481289 ms] ONU(R)
+[607084 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 02 06 00 03 02 00 01 07 00 20 01 24 07 00 5d 02
 00 00 07 00 5a 01 02 07 00 4f 01 02 07 00 a3 01
-00 07 00 1a 01 01 07 00 47 01 01 07 00 b0 80 07
+00 07 00 1a 01 01 07 00 47 01 03 07 00 b0 80 07
 00 1d 80 07 7f f6 80
 
 
-[2481290 ms] OLT(T)
+[607085 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -358,7 +364,7 @@ Type FE, OUI 000db6
 00 07 00 53 80 00 00
 
 
-[2481292 ms] ONU(R)
+[607088 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -367,7 +373,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481293 ms] OLT(T)
+[607089 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -376,17 +382,17 @@ Type FE, OUI 000db6
 00 1d 07 7f f6 00 00
 
 
-[2481311 ms] ONU(R)
+[607127 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 02 06 00 03 02 00 02 07 00 20 01 24 07 00 5d 02
 00 00 07 00 5a 01 02 07 00 4f 01 02 07 00 a3 01
-00 07 00 1a 01 01 07 00 47 01 01 07 00 b0 80 07
+00 07 00 1a 01 01 07 00 47 01 03 07 00 b0 80 07
 00 1d 80 07 7f f6 80
 
 
-[2481313 ms] OLT(T)
+[607128 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -394,7 +400,7 @@ Type FE, OUI 000db6
 00 07 00 53 80 00 00
 
 
-[2481315 ms] ONU(R)
+[607131 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -403,7 +409,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481316 ms] OLT(T)
+[607132 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -412,7 +418,7 @@ Type FE, OUI 000db6
 00 1d 07 7f f6 00 00
 
 
-[2481334 ms] ONU(R)
+[607151 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -422,7 +428,7 @@ Type FE, OUI 000db6
 00 1d 80 07 7f f6 80
 
 
-[2481335 ms] OLT(T)
+[607152 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -430,7 +436,7 @@ Type FE, OUI 000db6
 00 07 00 53 80 00 00
 
 
-[2481337 ms] ONU(R)
+[607155 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -439,7 +445,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481339 ms] OLT(T)
+[607156 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -448,17 +454,33 @@ Type FE, OUI 000db6
 00 1d 07 7f f6 00 00
 
 
-[2481357 ms] ONU(R)
+[607194 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 02 06 00 03 02 00 04 07 00 20 01 24 07 00 5d 02
 00 00 07 00 5a 01 02 07 00 4f 01 02 07 00 a3 01
-00 07 00 1a 01 01 07 00 47 01 01 07 00 b0 80 07
+00 07 00 1a 01 01 07 00 47 01 03 07 00 b0 80 07
 00 1d 80 07 7f f6 80
 
 
-[2481358 ms] OLT(T)
+[607195 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+01 a7 00 1b 00 00 00
+
+
+[607199 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+02 a7 00 1b 0a 27 b4 7f 42 3e e4 4c 96 01 45 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[607200 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -466,7 +488,7 @@ Type FE, OUI 000db6
 00 07 00 53 80 00 00
 
 
-[2481360 ms] ONU(R)
+[607203 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -475,285 +497,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2481444 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-01 a7 00 2b 00 00 00
-
-
-[2481451 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-02 a7 00 2b 0e ff ff 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2481452 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-01 a7 00 2c 00 00 00
-
-
-[2481458 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-02 a7 00 2c 06 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2481861 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 82 02 00 00 07 00 13 07 00 c3 07 00 0f
-07 00 10 07 00 11 06 00 83 02 ff ff 07 00 23 07
-00 24 00 00
-
-
-[2481865 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 82 02 00 00 07 00 13 08 00 00 00 00 00
-00 00 00 07 00 c3 01 03 07 00 0f 08 00 00 00 00
-00 00 00 00 07 00 10 08 00 00 00 00 00 00 00 00
-07 00 11 08 00 00 00 00 00 00 00 00 06 00 83 80
-ff 07 ff 80
-
-
-[2481866 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 82 02 00 00 07 00 13 07 00 c3 07 00 0f
-07 00 10 07 00 11 06 00 83 02 ff ff 07 00 23 07
-00 24 00 00
-
-
-[2481869 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 82 02 00 00 07 00 13 08 00 00 00 00 00
-00 00 00 07 00 c3 01 03 07 00 0f 08 00 00 00 00
-00 00 00 00 07 00 10 08 00 00 00 00 00 00 00 00
-07 00 11 08 00 00 00 00 00 00 00 00 06 00 83 80
-ff 07 ff 80
-
-
-[2481870 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-03 06 00 82 02 00 00 07 00 13 02 80 00 07 00 c3
-01 03 07 00 0f 02 ea 60 07 00 10 02 00 c8 07 00
-11 02 05 dc 00 00
-
-
-[2481872 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 82 02 00 00 07 00 13 80 07 00 c3 80 07
-00 0f 80 07 00 10 80 07 00 11 80 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2481873 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 01 07 00 bc 07 00 bd 00 00
-
-
-[2481875 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 01 07 00 bc 06 00 00 00 00 00
-01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2481876 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-03 06 00 03 02 00 01 07 00 bc 06 00 00 03 03 00
-01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
-
-
-[2481894 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 03 02 00 01 07 00 bc 80 07 00 bd 80 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2481895 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 02 07 00 bc 07 00 bd 00 00
-
-
-[2481896 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 02 07 00 bc 06 00 00 00 00 00
-01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2481898 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-03 06 00 03 02 00 02 07 00 bc 06 00 00 03 03 00
-01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
-
-
-[2481915 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 03 02 00 02 07 00 bc 80 07 00 bd 80 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482416 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 03 07 00 bc 07 00 bd 00 00
-
-
-[2482418 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 03 07 00 bc 06 00 00 00 00 00
-01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482419 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-03 06 00 03 02 00 03 07 00 bc 06 00 00 03 03 00
-01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
-
-
-[2482435 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 03 02 00 03 07 00 bc 80 07 00 bd 80 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482436 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 04 07 00 bc 07 00 bd 00 00
-
-
-[2482439 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 04 07 00 bc 06 00 00 00 00 00
-01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482440 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-03 06 00 03 02 00 04 07 00 bc 06 00 00 03 03 00
-01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
-
-
-[2482455 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 03 02 00 04 07 00 bc 80 07 00 bd 80 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482456 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 00 07 00 bc 07 00 bd 00 00
-
-
-[2482457 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 00 07 00 bc 06 00 00 00 00 00
-01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482458 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-03 06 00 03 02 00 00 07 00 bc 06 00 00 03 03 00
-01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
-
-
-[2482471 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 03 02 00 00 07 00 bc 80 07 00 bd 80 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482803 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-01 a7 00 1b 00 00 00
-
-
-[2482807 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-02 a7 00 1b 0a 25 87 7f 42 3f ac 4c 96 01 68 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482809 ms] OLT(T)
+[607203 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 01 a7 00 16 00 00 00
 
 
-[2482811 ms] ONU(R)
+[607205 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -762,14 +513,285 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2482972 ms] OLT(T)
+[607704 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 82 02 00 00 07 00 13 07 00 c3 07 00 0f
+07 00 10 07 00 11 06 00 83 02 ff ff 07 00 23 07
+00 24 00 00
+
+
+[607707 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 82 02 00 00 07 00 13 08 00 00 00 00 00
+00 00 00 07 00 c3 01 03 07 00 0f 08 00 00 00 00
+00 00 00 00 07 00 10 08 00 00 00 00 00 00 00 00
+07 00 11 08 00 00 00 00 00 00 00 00 06 00 83 80
+ff 07 ff 80
+
+
+[607709 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 82 02 00 00 07 00 13 07 00 c3 07 00 0f
+07 00 10 07 00 11 06 00 83 02 ff ff 07 00 23 07
+00 24 00 00
+
+
+[607713 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 82 02 00 00 07 00 13 08 00 00 00 00 00
+00 00 00 07 00 c3 01 03 07 00 0f 08 00 00 00 00
+00 00 00 00 07 00 10 08 00 00 00 00 00 00 00 00
+07 00 11 08 00 00 00 00 00 00 00 00 06 00 83 80
+ff 07 ff 80
+
+
+[607714 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+03 06 00 82 02 00 00 07 00 13 02 80 00 07 00 c3
+01 03 07 00 0f 02 ea 60 07 00 10 02 00 c8 07 00
+11 02 05 dc 00 00
+
+
+[607716 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+04 06 00 82 02 00 00 07 00 13 80 07 00 c3 80 07
+00 0f 80 07 00 10 80 07 00 11 80 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[607718 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 03 02 00 01 07 00 bc 07 00 bd 00 00
+
+
+[607720 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 03 02 00 01 07 00 bc 06 00 00 00 00 00
+01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[607721 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+03 06 00 03 02 00 01 07 00 bc 06 00 00 03 03 00
+01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
+
+
+[607740 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+04 06 00 03 02 00 01 07 00 bc 80 07 00 bd 80 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[607741 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 03 02 00 02 07 00 bc 07 00 bd 00 00
+
+
+[607743 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 03 02 00 02 07 00 bc 06 00 00 00 00 00
+01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[607745 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+03 06 00 03 02 00 02 07 00 bc 06 00 00 03 03 00
+01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
+
+
+[607762 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+04 06 00 03 02 00 02 07 00 bc 80 07 00 bd 80 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608249 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+03 a7 00 1a 01 02 00 00
+
+
+[608250 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+04 a7 00 1a 80 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608263 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 03 02 00 03 07 00 bc 07 00 bd 00 00
+
+
+[608265 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 03 02 00 03 07 00 bc 06 00 00 00 00 00
+01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608267 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+03 06 00 03 02 00 03 07 00 bc 06 00 00 03 03 00
+01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
+
+
+[608283 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+04 06 00 03 02 00 03 07 00 bc 80 07 00 bd 80 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608284 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 03 02 00 04 07 00 bc 07 00 bd 00 00
+
+
+[608286 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 03 02 00 04 07 00 bc 06 00 00 00 00 00
+01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608287 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+03 06 00 03 02 00 04 07 00 bc 06 00 00 03 03 00
+01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
+
+
+[608303 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+04 06 00 03 02 00 04 07 00 bc 80 07 00 bd 80 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608305 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+01 06 00 03 02 00 00 07 00 bc 07 00 bd 00 00
+
+
+[608307 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+02 06 00 03 02 00 00 07 00 bc 06 00 00 00 00 00
+01 07 00 bd 02 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608308 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+03 06 00 03 02 00 00 07 00 bc 06 00 00 03 03 00
+01 07 00 bd 09 00 01 00 01 00 01 00 02 00 00 00
+
+
+[608320 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI 000db6
+04 06 00 03 02 00 00 07 00 bc 80 07 00 bd 80 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608368 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+01 a7 00 2b 00 00 00
+
+
+[608376 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+02 a7 00 2b 0e ff ff 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608377 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+01 a7 00 2c 00 00 00
+
+
+[608383 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B  [8809]
+SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
+Type FE, OUI aaaaaa
+02 a7 00 2c 06 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00
+
+
+[608821 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 01 06 00 03 02 00 01 07 00 b8 00 00
 
 
-[2482974 ms] ONU(R)
+[608823 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -778,7 +800,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2482975 ms] OLT(T)
+[608825 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -786,7 +808,7 @@ Type FE, OUI 000db6
 00 00 00 00 00 01 04 08 04 02 01 00 00
 
 
-[2482977 ms] ONU(R)
+[608827 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -795,14 +817,14 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2482978 ms] OLT(T)
+[608828 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
 01 06 00 03 02 00 02 07 00 b8 00 00
 
 
-[2482980 ms] ONU(R)
+[608829 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -811,100 +833,51 @@ Type FE, OUI 000db6
 00 00 00 00 00 00 00
 
 
-[2482982 ms] OLT(T)
+[608830 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
-03 06 00 03 02 00 02 07 00 b8 10 1f 00 01 00 00
-00 00 00 00 00 01 04 08 04 02 01 00 00
+03 06 00 03 02 00 02 07 00 b8 10 1f 00
+[608835 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B
+[608844 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B
 
-
-[2482984 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-04 06 00 03 02 00 02 07 00 b8 80 00 00 00 00 00
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-00 00 00 00 00 00 00
-
-
-[2482985 ms] OLT(T)
+[608852 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5
+[608861 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B
+[609364 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
-01 06 00 03 02 00 03 07 00 b8 00 00
+01 06 00 03 02 00 01 07 00 ba 00 00
 
 
-[2482987 ms] ONU(R)
+[609366 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
-02 06 00 03 02 00 03 07 00 b8 0d 00 00 01 00 00
-00 00 00 00 00 01 00 00 07 00 b8 80 00 00 00 00
+02 06 00 03 02 00 01 07 00 ba 13 00 01 00 00 00
+01 01 02 02 03 03 04 04 05 05 06 06 07 07 00 00
 00 00 00 00 00 00 00
 
+
+[609367 ms] OLT(T)
+D: 0180C2000002 S: 002337B60DB5  [8809]
+
+[609369 ms] ONU(R)
+D: 0180C2000002 S: 00271CAFAF3B
   [8809]
-  [8809]
-Type FE, OUI 000db6
-[2483014 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B
-[2483517 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 01 07 00 bb 00 00
 
-
-[2483519 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 01 07 00 bb 15 00 00 01 00 08
-00 00 01 00 02 01 03 01 04 02 05 02 06 03 07 03
-00 00 00 00 00 00 00
-
-
-[2483523 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B
-[2483530 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B
-Local DiscCompleted, Remote DiscCompleted
-
-[2483547 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B
-[2483858 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-03 a7 00 1a 01 02 00 00
-
-
-[2483860 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI aaaaaa
-04 a7 00 1a 80 00 00 00 00 00 00 00 00 00 00 00
-[2484048 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 03 07 00 ba 00 00
-
-
-[2484051 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050
-
-[2484056 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B
-[2484559 ms] OLT(T)
+[609884 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
 01 a7 00 25 01 00 00 00
 
 
-[2484560 ms] ONU(R)
+[609885 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI aaaaaa
@@ -913,7 +886,7 @@ Type FE, OUI aaaaaa
 00 00 00 00 00 00 00
 
 
-[2531555 ms] OLT(T)
+[614578 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -924,7 +897,7 @@ Type FE, OUI 000db6
 07 00 9c 07 00 9b 07 00 e9 07 00 df 00 00
 
 
-[2531559 ms] ONU(R)
+[614582 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -945,7 +918,7 @@ Type FE, OUI 000db6
 00 9b a1 07 00 e9 80 07 00 df 80
 
 
-[2531563 ms] OLT(T)
+[614586 ms] OLT(T)
 D: 0180C2000002 S: 002337B60DB5  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -956,7 +929,7 @@ Type FE, OUI 000db6
 07 00 dc 07 00 dd 07 00 db 00 00
 
 
-[2531568 ms] ONU(R)
+[614591 ms] ONU(R)
 D: 0180C2000002 S: 00271CAFAF3B  [8809]
 SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
 Type FE, OUI 000db6
@@ -975,70 +948,7 @@ Type FE, OUI 000db6
 00 de 80 07 00 dc 80 07 00 dd 80 07 00 db 80
 
 
-1100/oam/>
-1100/oam/>
-1100/oam/>
-[2591556 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 00 07 00 0e 07 00 05 07 00 84
-07 00 15 07 00 16 07 00 87 07 00 88 07 00 89 07
-00 8a 07 00 8b 07 00 8c 07 00 8d 07 00 86 07 00
-06 07 00 f9 07 00 23 07 00 9e 07 00 9d 07 00 9f
-07 00 9c 07 00 9b 07 00 e9 07 00 df 00 00
-
-
-[2591560 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 00 07 00 0e 08 00 00 00 00 00
-00 00 00 07 00 05 08 00 00 00 00 00 00 00 00 07
-00 84 08 00 00 00 00 00 00 00 00 07 00 15 08 00
-00 00 00 00 00 00 00 07 00 16 08 00 00 00 00 00
-00 00 00 07 00 87 08 00 00 00 00 00 00 00 00 07
-00 88 08 00 00 00 00 00 00 00 00 07 00 89 08 00
-00 00 00 00 00 00 00 07 00 8a 08 00 00 00 00 00
-00 00 00 07 00 8b 08 00 00 00 00 00 00 00 00 07
-00 8c 08 00 00 00 00 00 00 00 00 07 00 8d 08 00
-00 00 00 00 00 00 00 07 00 86 08 00 00 00 00 00
-00 00 00 07 00 06 08 00 00 00 00 00 00 00 00 07
-00 f9 a1 07 00 23 a1 07 00 9e 08 00 00 00 00 00
-00 00 00 07 00 9d 08 00 00 00 00 00 00 00 00 07
-00 9f 08 00 00 00 00 00 00 00 00 07 00 9c a1 07
-00 9b a1 07 00 e9 80 07 00 df 80
-
-
-[2591564 ms] OLT(T)
-D: 0180C2000002 S: 002337B60DB5  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-01 06 00 03 02 00 00 07 00 08 07 00 02 07 00 85
-07 00 12 07 00 13 07 00 8e 07 00 8f 07 00 90 07
-00 91 07 00 92 07 00 93 07 00 94 07 00 98 07 00
-97 07 00 99 07 00 96 07 00 95 07 00 9a 07 00 de
-07 00 dc 07 00 dd 07 00 db 00 00
-
-
-[2591569 ms] ONU(R)
-D: 0180C2000002 S: 00271CAFAF3B  [8809]
-SubType: 03 Flags: 0050 Local DiscCompleted, Remote DiscCompleted
-Type FE, OUI 000db6
-02 06 00 03 02 00 00 07 00 08 08 00 00 00 00 00
-00 00 00 07 00 02 08 00 00 00 00 00 00 00 00 07
-00 85 08 00 00 00 00 00 00 00 00 07 00 12 08 00
-00 00 00 00 00 00 00 07 00 13 08 00 00 00 00 00
-00 00 00 07 00 8e 08 00 00 00 00 00 00 00 00 07
-00 8f 08 00 00 00 00 00 00 00 00 07 00 90 08 00
-00 00 00 00 00 00 00 07 00 91 08 00 00 00 00 00
-00 00 00 07 00 92 08 00 00 00 00 00 00 00 00 07
-00 93 08 00 00 00 00 00 00 00 00 07 00 94 08 00
-00 00 00 00 00 00 00 07 00 98 08 00 00 00 00 00
-00 00 00 07 00 97 08 00 00 00 00 00 00 00 00 07
-00 99 a1 07 00 96 a1 07 00 95 a1 07 00 9a a1 07
-00 de 80 07 00 dc 80 07 00 dd 80 07 00 db 80
-
-
-
-
+1100/>
+1100/>
+1100/>
+1100/>
